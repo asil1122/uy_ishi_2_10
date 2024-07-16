@@ -31,22 +31,22 @@
     border: none;
 }
 
-.header_block{
+.header_block {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-@media screen and (min-width: 768px){
-    .header_img_link{
+@media screen and (min-width: 768px) {
+    .header_img_link {
         width: 236px;
     }
 
-    .header_btn{
+    .header_btn {
         display: none;
     }
 
-    .header_list{
+    .header_list {
         display: flex;
     }
 }
