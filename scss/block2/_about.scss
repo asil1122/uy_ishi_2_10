@@ -1,0 +1,64 @@
+.about_block{
+    padding: 111px 24px 87px 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/about_img.jpg);
+    text-align: center;
+}
+
+
+.about_title{
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 28px;
+line-height: 100%;
+color: #fefcf7;
+margin-bottom: 24px;
+}
+
+.about_text{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 167%;
+color: #fefcf7;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about_block{
+        padding: 118px 58px;
+        background-image: url(../img/about_tablet.jpg);
+        border-radius: 10px;
+        text-align: start;
+    }
+
+    .about_title{
+        font-size: 32px;
+        line-height: 125%;
+    }
+
+    .about_text{
+        width: 398px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .about_block{
+        padding: 137px 85px;
+        background-image: url(../img/about_desktop.jpg);
+    }
+    
+
+    .about_title{
+        font-size: 40px;
+line-height: 120%;
+    }
+
+    .about_text{
+        font-size: 16px;
+line-height: 162%;
+width: 445px;
+    }
+}
